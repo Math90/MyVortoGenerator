@@ -1,0 +1,18 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "MessageMonitor"
+description "Function block model for MessageMonitor"
+category demo
+using com.mycompany.type.Color ; 1.0.0
+
+functionblock MessageMonitor {
+	status {
+		mandatory ActualMessage as string
+		mandatory BackgorundColor as Color
+	}
+
+	operations {
+		setMessage(message as string)
+	}
+
+}

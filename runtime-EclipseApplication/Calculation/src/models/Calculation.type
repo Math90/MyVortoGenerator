@@ -1,0 +1,9 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "Calculation"
+description "Type for Calculation"
+category demo		
+entity Calculation {
+	mandatory deltaSpeed as double
+	mandatory time as double
+}

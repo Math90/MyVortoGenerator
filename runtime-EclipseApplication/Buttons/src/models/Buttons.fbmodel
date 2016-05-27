@@ -1,0 +1,12 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "Buttons"
+description "Function block model for Buttons"
+category demo	
+functionblock Buttons {
+
+	status{ 
+		mandatory Button1 as boolean
+		mandatory Button2 as boolean
+	}
+}	

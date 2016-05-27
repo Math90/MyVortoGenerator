@@ -1,0 +1,11 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "State"
+description "Type for State"
+category demo		
+enum State {
+	Left,
+	Right,
+	Up,
+	Down
+}

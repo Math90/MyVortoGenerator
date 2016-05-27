@@ -1,0 +1,22 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "Ledlights"
+description "Function block model for Ledlights"
+category demo
+using com.mycompany.type.Color ; 1.0.0
+
+functionblock Ledlights {
+	configuration {
+	}
+
+	status {
+		mandatory Led as Color
+	}
+
+	fault {
+		mandatory Led1Working as boolean
+		mandatory Led2Working as boolean
+		mandatory Led3Working as boolean
+	}
+
+}

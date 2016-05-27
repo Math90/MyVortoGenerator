@@ -1,0 +1,8 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "SpeedUnit"
+description "Type for SpeedUnit"
+category demo		
+enum SpeedUnit {
+	kmph, mph
+}

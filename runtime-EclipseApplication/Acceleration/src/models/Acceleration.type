@@ -1,0 +1,11 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "Acceleration"
+description "Type for Acceleration"
+category demo
+using com.mycompany.type.Calculation ; 1.0.0
+
+entity Acceleration {
+	mandatory acceleration as double
+	mandatory calc as Calculation
+}

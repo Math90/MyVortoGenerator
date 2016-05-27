@@ -1,0 +1,11 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "Battery"
+description "Function block model for Battery"
+category demo	
+functionblock Battery {
+
+	status{ 
+		mandatory precent as int
+	}
+}	

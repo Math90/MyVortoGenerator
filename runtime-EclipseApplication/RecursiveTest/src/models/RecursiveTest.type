@@ -1,0 +1,9 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "RecursiveTest"
+description "Type for RecursiveTest"
+category demo		
+using com.mycompany.type.NewEntity ; 1.0.0
+entity RecursiveTest {
+	mandatory detail as NewEntity
+}

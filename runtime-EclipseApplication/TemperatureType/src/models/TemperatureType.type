@@ -1,0 +1,9 @@
+namespace com.mycompany.type
+version 1.0.0
+displayname "TemperatureType"
+description "Type for TemperatureType"
+category demo		
+enum TemperatureType {
+	Fahrenheit,
+	Celsius	
+}

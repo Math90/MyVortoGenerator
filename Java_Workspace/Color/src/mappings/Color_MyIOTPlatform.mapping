@@ -1,0 +1,15 @@
+	namespace com.mycompany
+	version 1.0.0
+	displayname "Color_MyIOTPlatform"
+	description "Color to MyIOTPlatform mapping"
+	using com.mycompany.type.Color ; 1.0.0
+	
+	entitymapping Color_MyIOTPlatform {
+		targetplatform MyIOTPlatform
+	
+		from Color.version
+		to MyColor with { Revision : "Rev-" }
+	
+		from Color.r, Color.g, Color.b
+		to MyColor with { r : "Red", g : "Green", b : "Blue" }
+	}

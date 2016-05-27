@@ -1,0 +1,19 @@
+	namespace com.mycompany
+	version 1.0.0
+	displayname "ColorLight_MyColorLight"
+	description "ColorLight to MyColorLight mapping"
+	using com.mycompany.fb.ColorLight ; 1.0.0
+	using com.mycompany.Color_MyIOTPlatform ; 1.0.0
+	
+	functionblockmapping ColorLight_MyIOTPlatform {
+		targetplatform MyIOTPlatform
+	
+		from ColorLight.displayname
+		to TargetDisplayName
+	
+		from ColorLight.configuration.defaultColor
+		to reference Color_MyIOTPlatform
+	
+		from ColorLight.operation.setR, ColorLight.operation.setG, ColorLight.operation.setB
+		to channelType with { Attribute : "color" }
+	}

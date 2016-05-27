@@ -1,0 +1,25 @@
+namespace com.mycompany
+version 1.0.0
+displayname "MyFictiveSensor"
+description "Information model for MyFictiveSensor"
+category demo
+using com.mycompany.fb.Battery ; 1.0.0
+using com.mycompany.fb.Buttons ; 1.0.0
+using com.mycompany.fb.Ledlights ; 1.0.0
+using com.mycompany.fb.MessageMonitor ; 1.0.0
+using com.mycompany.fb.TemperatureSensor ; 1.0.0
+using com.mycompany.fb.Switcher ; 1.0.0
+using com.mycompany.fb.Accelerometer ; 1.0.0
+
+infomodel MyFictiveSensor {
+
+	functionblocks {
+		battery as Battery
+		buttons as Buttons
+		ledlights as Ledlights
+		messagemonitor as MessageMonitor
+		temperaturesensor as TemperatureSensor
+		switcher as Switcher
+		accelerometer as Accelerometer
+	}
+}

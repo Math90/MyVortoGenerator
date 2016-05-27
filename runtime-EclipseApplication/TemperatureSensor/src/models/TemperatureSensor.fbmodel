@@ -1,0 +1,17 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "TemperatureSensor"
+description "Function block model for TemperatureSensor"
+category demo
+using com.mycompany.type.TemperatureType ; 1.0.0
+
+functionblock TemperatureSensor {
+	configuration {
+		mandatory UnitType as TemperatureType
+	}
+
+	status {
+		mandatory ActualTemperature as float
+	}
+
+}

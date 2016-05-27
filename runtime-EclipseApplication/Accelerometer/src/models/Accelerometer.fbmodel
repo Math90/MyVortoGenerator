@@ -1,0 +1,28 @@
+namespace com.mycompany.fb
+version 1.0.0
+displayname "Accelerometer"
+description "Function block model for Accelerometer"
+category demo
+using com.mycompany.type.Acceleration ; 1.0.0
+using com.mycompany.type.SpeedUnit ; 1.0.0
+
+functionblock Accelerometer {
+	configuration {
+		mandatory speedUnit as SpeedUnit
+	}
+
+	status {
+		mandatory currentAcc as Acceleration
+	}
+
+	fault {
+	//Please enter functionblock fault configuration.
+
+	}
+
+	operations {
+	//Please enter functionblock operations.
+
+	}
+
+}
